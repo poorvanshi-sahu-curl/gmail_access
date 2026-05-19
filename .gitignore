@@ -1,0 +1,106 @@
+# Secrets and authentication (CRITICAL - never commit)
+credentials.json
+token.json
+.env
+.env.local
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+.env.venv
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.nose*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Streamlit
+.streamlit/
+.streamlitrc
+
+# Ollama and models (large files)
+ollama/
+models/
+*.gguf
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Added by code-review-graph
+.code-review-graph/
+
+# MCP and tool configs (local development)
+.mcp.json
+.cursor/
+.cursorrules
+.kiro/
+.opencode.json
+.qoder/
+.windsurfrules
+AGENTS.md
+GEMINI.md
+QODER.md
+
+.claude
+.gemini
+.github
